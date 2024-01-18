@@ -9,7 +9,7 @@ A very detailed explanation on how to train your own YOLO v8 model
 ### A. Take photos (as much as possible) with variety in position and lighting
 - Rename photos for easy organisation
 
-**[data_prep.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/data_prep.png)**
+**![data_prep.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/data_prep.png)**
 
 ### B. Label photos using Roboflow, Make Sense AI, etc...
 
