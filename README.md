@@ -7,7 +7,7 @@ A very detailed explanation on how to train your own YOLO v8 model
 
 ## 1. Prepare Dataset and Files
 ### A. Take photos (as much as possible) with variety in position and lighting
-- Rename photos for easy organisation
+- Rename photos for easy organisation, use **[rename_images.py](https://github.com/alfa934/train_custom_yolo_model/blob/main/rename_images.py)**
 
 **![data_prep.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/data_prep.png)**
 
@@ -56,7 +56,7 @@ Your <custom_data_folder> structure should look like this:
 
 
 ### E. 📌 UPLOAD <custom_data_folder> into your GOOGLE DRIVE 📌
-- Upload <custom_data_folder> into your google drive
+- Upload **<custom_data_folder>** into your google drive
 
 <br>
 
