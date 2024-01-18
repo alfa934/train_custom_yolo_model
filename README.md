@@ -28,11 +28,15 @@ Change the model and epoch parameters for better result.
 ## 4. Deploy custom model to OpenCV (camera feed, image, video, etc...)
 Results are usually saved to **_runs/detect/train_** <br>
 
+
 Find in directory, the more you train, the more train files there will be (choose the latest one, for example **_train2_**).
+
 
 > Choose **_best.pt_**, or other **_.pt_** file
 
 Download the **_.pt_** file and save it LOCALLY on your laptop/pc.
+
+Then use it with **[opencv_detect.py](https://github.com/alfa934/train_custom_yolo_model/blob/main/opencv_detect.py)**
 
 <br>
 
