@@ -56,7 +56,7 @@ Your <custom_data_folder> structure should look like this:
 
 
 ### E. 📌 UPLOAD <custom_data_folder> into your GOOGLE DRIVE 📌
-- Upload **<custom_data_folder>** into your google drive
+- Upload **<custom_data_folder>** into your **GOOGLE DRIVE**
 
 <br>
 
