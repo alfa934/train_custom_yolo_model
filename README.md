@@ -12,6 +12,15 @@ A very detailed explanation on how to train your own YOLO v8 model
 **![data_prep.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/data_prep.png)**
 
 ### B. Label photos using Roboflow, Make Sense AI, etc...
+- After labeling all images, export labels in YOLO format (zip file) into LOCAL MACHINE (**_.txt_** files) 
+
+**![labeling.jpeg](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/labeling.jpeg)**
+
+- References :
+  - https://xailient.com/blog/how-to-annotate-your-images-using-the-makesense-tool/
+  - https://blog.roboflow.com/tips-for-how-to-label-images/
+  - https://docs.roboflow.com/datasets/exporting-data
+
 
 ### C. Organise images and label into **<custom_data_folder>**
 - Make an image folder and separate the images into train and val folder.
