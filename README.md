@@ -6,9 +6,11 @@ A very detailed explanation on how to train your own YOLO v8 model
 <br>
 
 ## REFERENCES
-#### A. Preparing Dataset (Collecting Images, Labelling, etc...)
-1. 
-#### B. Training Model
+1. https://www.youtube.com/watch?v=GRtgLlwxpc4
+2. https://www.youtube.com/watch?v=FBavXyN18K8
+3. https://www.youtube.com/watch?v=2TIhdai0f6M
+4. https://www.youtube.com/watch?v=tFNJGim3FXw
+5. https://www.youtube.com/watch?v=wM1wn1bZ3S4
 
 <br>
 
