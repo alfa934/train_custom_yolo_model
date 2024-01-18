@@ -7,19 +7,20 @@ A very detailed explanation on how to train your own YOLO v8 model
 
 ## 1. Prepare Dataset and Files
 ### A. Take photos (as much as possible) with variety in position and lighting
+- Rename photos for easy organisation
 
-### B. Rename photos for easy organisation
+**[data_prep.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/data_prep.png)**
 
-### C. Label photos using Roboflow, Make Sense AI, etc...
+### B. Label photos using Roboflow, Make Sense AI, etc...
 
-### D. Organise images and label into **<custom_data_folder>**
+### C. Organise images and label into **<custom_data_folder>**
 - Make an image folder and separate the images into train and val folder.
 
 - Make a label folder and separate the **_.txt_** files into train and val folder
 
 - Splitting train and val data may vary, such as **80%:20%, 70%:30%, etc...**
 
-### E. Prepare YAML file and place into **<custom_data_folder>**
+### D. Prepare YAML file and place into **<custom_data_folder>**
 - Make a YAML file by using **[yaml_file_template.yaml](https://github.com/alfa934/train_custom_yolo_model/blob/main/yaml_file_template.yaml)**
 
 - Follow the instructions in the YAML file template
@@ -45,7 +46,7 @@ Your <custom_data_folder> structure should look like this:
 ![custom_data_folder.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/custom_data_folder.png)
 
 
-### F. 📌 UPLOAD <custom_data_folder> into your GOOGLE DRIVE 📌
+### E. 📌 UPLOAD <custom_data_folder> into your GOOGLE DRIVE 📌
 - Upload <custom_data_folder> into your google drive
 
 <br>
