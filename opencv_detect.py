@@ -4,7 +4,7 @@
 from ultralytics import YOLO
 import cv2
 
-# input path to model/weight
+# input path to model/weight (.pt file from Google Colab)
 model = YOLO('path_to_model.pt')
 
 cap = cv2.VideoCapture(0)
