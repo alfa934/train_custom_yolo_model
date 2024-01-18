@@ -5,15 +5,6 @@ A very detailed explanation on how to train your own YOLO v8 model
 
 <br>
 
-## REFERENCES
-1. https://www.youtube.com/watch?v=GRtgLlwxpc4
-2. https://www.youtube.com/watch?v=FBavXyN18K8
-3. https://www.youtube.com/watch?v=2TIhdai0f6M
-4. https://www.youtube.com/watch?v=tFNJGim3FXw
-5. https://www.youtube.com/watch?v=wM1wn1bZ3S4
-
-<br>
-
 ## 1. Prepare Dataset
 Use Roboflow, Make Sense AI, etc...
 
@@ -30,3 +21,12 @@ Follow instructions from **[Train_custom_yolo_model.ipynb](https://github.com/al
 <br>
 
 ## 4. Deploy custom model to OpenCV (camera feed, image, video, etc...)
+
+<br>
+
+## REFERENCES
+1. https://www.youtube.com/watch?v=GRtgLlwxpc4
+2. https://www.youtube.com/watch?v=FBavXyN18K8
+3. https://www.youtube.com/watch?v=2TIhdai0f6M
+4. https://www.youtube.com/watch?v=tFNJGim3FXw
+5. https://www.youtube.com/watch?v=wM1wn1bZ3S4
