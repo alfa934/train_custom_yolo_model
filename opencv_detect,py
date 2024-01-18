@@ -1,3 +1,6 @@
+# Program to detect objects from CAMERA STREAM
+# Library : Ultralytics, opencv
+
 from ultralytics import YOLO
 import cv2
 
