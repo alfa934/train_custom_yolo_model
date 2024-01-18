@@ -40,17 +40,21 @@ Your <custom_data_folder> structure should look like this:
 |
 |---------------------
 ```
+
+![custom_data_folder.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/custom_data_folder.png)
+
 ---
 <br>
 
 ## 2. Google Colab Preparation
 Follow instructions from **[Train_custom_yolo_model.ipynb](https://github.com/alfa934/train_custom_yolo_model/blob/main/Train_custom_yolo_model.ipynb)**
 
-
 <br>
 
 ## 3. Train YOLO v8 model with up-to-date Ultralytics API in Google Colab
 Change the model and epoch parameters for better result.
+
+![train_model.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/train_model.png)
 
 <br>
 
@@ -64,6 +68,8 @@ Find in directory, the more you train, the more train files there will be (choos
 > Choose **_best.pt_**, or other **_.pt_** file
 
 Download the **_.pt_** file and save it LOCALLY on your laptop/pc.
+
+![deploy_model.png](https://github.com/alfa934/train_custom_yolo_model/blob/main/resource/deploy_model.png)
 
 Then use it with **[opencv_detect.py](https://github.com/alfa934/train_custom_yolo_model/blob/main/opencv_detect.py)**
 
