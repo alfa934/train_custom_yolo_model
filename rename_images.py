@@ -1,3 +1,5 @@
+# A program to rename images from 0 - X
+
 import os
 
 os.getcwd()
