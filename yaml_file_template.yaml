@@ -1,0 +1,41 @@
+# Check DEFAULT YAML file from YOLO repo for template
+
+# Your <custom_data_folder> structure should be like this:
+# <custom_data_folder>
+# |
+# |-- <image_folder>
+# |   |-- <train_folder>
+# |   |-- <val_folder>
+# |
+# |-- <label_folder>
+# |   |-- <train_folder>
+# |   |-- <val_folder>
+# |
+# |--<yaml_file_template>
+# |
+# |---------------------
+
+path: ../<custom_data_folder>         # dataset root directory
+
+train: <image_folder>/<train_folder>/ # train images (relative to 'path')
+
+val: <image_folder>/<val_folder>/     # val images (relative to 'path')
+
+# Classes name
+names:
+  0: <name_of_class_1>
+# 1: <name_of_class_2>
+# X: <name_of_class_X-1>
+
+
+########################## EXAMPLE YAML FILE ##########################
+
+# path: ../custom_data
+# train: images/train/
+# val: images/val/
+
+# # Classes name
+# names:
+#   0: person
+  
+#######################################################################
