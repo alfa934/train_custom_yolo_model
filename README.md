@@ -6,12 +6,41 @@ A very detailed explanation on how to train your own YOLO v8 model
 <br>
 
 ## 1. Prepare Dataset and Files
-#### A. Take photos (as much as possible) with variety in position and lighting
-#### B. Rename photos for easy organisation
-#### C. Label photos using Roboflow, Make Sense AI, etc...
-#### D. Organise images and label into **<custom_data_folder>**
-#### E. Prepare YAML file and place into **<custom_data_folder>**
+### A. Take photos (as much as possible) with variety in position and lighting
 
+### B. Rename photos for easy organisation
+
+### C. Label photos using Roboflow, Make Sense AI, etc...
+
+### D. Organise images and label into **<custom_data_folder>**
+- Make an image folder and separate the images into train and val folder.
+
+- Make a label folder and separate the **_.txt_** files into train and val folder
+
+### E. Prepare YAML file and place into **<custom_data_folder>**
+- Make a YAML file by using **[yaml_file_template.yaml](https://github.com/alfa934/train_custom_yolo_model/blob/main/yaml_file_template.yaml)**
+
+- Follow the instructions in the YAML file template
+
+---
+```
+Your <custom_data_folder> structure should look like this:
+
+<custom_data_folder> 
+|
+|-- <image_folder>
+|   |-- <train_folder>
+|   |-- <val_folder>
+|
+|-- <label_folder>
+|   |-- <train_folder>
+|   |-- <val_folder>
+|
+|--<yaml_file_template>
+|
+|---------------------
+```
+---
 <br>
 
 ## 2. Google Colab Preparation
