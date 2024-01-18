@@ -9,8 +9,8 @@ A very detailed explanation on how to train your own YOLO v8 model
 #### A. Take photos (as much as possible) with variety in position and lighting
 #### B. Rename photos for easy organisation
 #### C. Label photos using Roboflow, Make Sense AI, etc...
-#### D. Organise images and label into ONE folder
-#### E. Prepare YAML file and place in folder
+#### D. Organise images and label into **<custom_data_folder>**
+#### E. Prepare YAML file and place into **<custom_data_folder>**
 
 <br>
 
