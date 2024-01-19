@@ -1,5 +1,6 @@
 # Program to detect objects from CAMERA STREAM
 # Library : Ultralytics, opencv
+# Reference : https://www.freecodecamp.org/news/how-to-detect-objects-in-images-using-yolov8/
 
 from ultralytics import YOLO
 import cv2
