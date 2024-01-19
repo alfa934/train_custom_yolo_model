@@ -1,7 +1,9 @@
 # train_custom_yolo_model
-A very detailed explanation on how to train your own YOLO v8 model
+A very detailed explanation on how to train your own YOLO v8 model.
 
 > **📌 Note: This tutorial uses YOLO v8, thus may subject to change for future versions**
+
+Here are some real life applications with YOLO v8 : https://docs.ultralytics.com/guides/#real-world-projects
 
 <br>
 
