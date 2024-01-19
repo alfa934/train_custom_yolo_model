@@ -97,8 +97,9 @@ and follow the instructions there...
 <br>
 
 ## REFERENCES
-1. https://www.youtube.com/watch?v=GRtgLlwxpc4
-2. https://www.youtube.com/watch?v=FBavXyN18K8
-3. https://www.youtube.com/watch?v=2TIhdai0f6M
-4. https://www.youtube.com/watch?v=tFNJGim3FXw
-5. https://www.youtube.com/watch?v=wM1wn1bZ3S4
+1. https://www.freecodecamp.org/news/how-to-detect-objects-in-images-using-yolov8/
+2. https://www.youtube.com/watch?v=GRtgLlwxpc4
+3. https://www.youtube.com/watch?v=FBavXyN18K8
+4. https://www.youtube.com/watch?v=2TIhdai0f6M
+5. https://www.youtube.com/watch?v=tFNJGim3FXw
+6. https://www.youtube.com/watch?v=wM1wn1bZ3S4
