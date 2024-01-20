@@ -98,6 +98,11 @@ and follow the instructions there...
 
 <br>
 
+# How to "re-train" the model with new classes?
+Refer to https://github.com/ultralytics/ultralytics/issues/5126
+
+<br>
+
 ## REFERENCES
 1. https://www.freecodecamp.org/news/how-to-detect-objects-in-images-using-yolov8/
 2. https://www.youtube.com/watch?v=GRtgLlwxpc4
