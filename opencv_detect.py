@@ -5,21 +5,31 @@
 from ultralytics import YOLO
 import cv2
 
-# input path to model/weight (.pt file from Google Colab)
+# input path to model/weight
 model = YOLO('path_to_model.pt')
 
+# camera config, resolution, etc
 cap = cv2.VideoCapture(0)
+# # this is default resolution,
+# # may not change for your camera
+# cap.set(cv2.CAP_PROP_FRAME_WIDTH,  640)
+# cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 
 while True:
 
     ret, frame = cap.read()
+    # flip horizontally
+    frame = cv2.flip(frame, 1)
 
     if not ret:
+        print("Unable to open media!")
         break
+
 
     # predict stuff in the image
     results = model.predict(frame)
+
 
     for result in results:
 
@@ -29,14 +39,31 @@ while True:
             cords = box.xyxy[0].tolist()
             cords = [round(x) for x in cords]
             conf = round(box.conf[0].item(), 2)
+
+            # The coordinate of bounding boxes            
+            # x_min, y_min => cords[0], cords[1]
+            # x_max, y_max => cords[2], cords[3]
+
+
+            # centroid of object
+            cx = int((cords[0]+cords[2])/2.0)
+            cy = int((cords[1]+cords[3])/2.0)
+
+            cv2.circle(frame, 
+                       (cx,cy), 
+                       2,
+                       (0, 0, 255),  
+                       cv2.FILLED)
             
+            # bounding box of object
             cv2.rectangle(frame, 
                           (cords[0], cords[1]), 
                           (cords[2], cords[3]), 
                           (0, 255, 0), 
                           2)
             
-            label = f"{class_id}, {conf}"
+            # display info (class, confidence, centroid)
+            label = f"{class_id}, {conf}, ({cx},{cy})"
             cv2.putText(frame, 
                         label, 
                         (cords[0], cords[1] - 10), 
